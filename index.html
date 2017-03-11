@@ -4,18 +4,30 @@
 <head>
     <meta charset="utf-8">
     <title>FCC Weather App</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
 </head>
 
 <body>
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-6 offset-sm-3 weather-container text-center">
-                <h1>Weather</h1>
-                <p id="weather">a</p>
+            <div class="col-md-4 offset-md-4 weather-container text-center">
+                <h1 id="city">Weather</h1>
+                <p id="icontesting"></p>
+                <div class="temp-info">
+                    <p id="temperature"></p>
+                    <button id="tempChange" class="btn">Change to Celsius</button>
+                </div>
+                <p id="weather-desc"></p>
             </div>
         </div>
     </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/custom.js"></script>
 
 </body>
 

@@ -2,14 +2,35 @@ body {
   background: #eee;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .row {
   height: 100vh; /* to make weather-container centered */
 }
 
 .weather-container {
-  background: #fff;
+  background: rgba(255,255,255,0.8);
   margin-top: auto;
   margin-bottom: auto;
   padding: 30px;
-  border-radius: 100px;
+  border-radius: 25px;
+}
+
+#weather-desc {
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.btn {
+  background: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+#temperature {
+  margin-top: 10px;
 }
