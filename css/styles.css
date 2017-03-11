@@ -1,0 +1,15 @@
+body {
+  background: #eee;
+}
+
+.row {
+  height: 100vh; /* to make weather-container centered */
+}
+
+.weather-container {
+  background: #fff;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 30px;
+  border-radius: 100px;
+}
